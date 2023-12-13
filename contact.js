@@ -8,7 +8,7 @@ export class Contact{
         <h1 class ="headfirst">I Want to Hear from You</h1>
         </div>
         <div class ="contactgrid">
-        <div class ="conGrid">
+        <div class ="conGrid" id ="mangericon">
 
         <div class ="location">
         <i class="fa fa-phone" aria-hidden="true" style="font-size:30px;color: #fff;"></i>
@@ -19,9 +19,8 @@ export class Contact{
         <div class ="location">
         <i class="fa fa-map-marker" aria-hidden="true" style="font-size:30px;color: #fff;"></i>
         </div>
- 
         </div>
-        <div class = "conGrid">
+        <div class = "conGrid" id ="manage">
         <h3>Phone</h3>
         <p>8954884738</p>
         <h3>Email</h3>
@@ -36,8 +35,8 @@ export class Contact{
         <input type ="text" id = "phone" placeholder ="Your Phone"  required>
         <input type ="text" id = "subject" placeholder ="Subject" required>
         <textarea id="message" placeholder ="Write Your Message here"></textarea>
-        </div>
         <button class ="submitbtn">Submit Now</button>
+        </div>
         </div>
         </div>`
         const cretProject = document.createElement('div')

@@ -9,7 +9,7 @@ export class Project{
         </div>
         <div class ="projectgrid">
         <div class = "progrid">
-        <img src ="https://miro.medium.com/max/700/1*Zch2USa46ngMuAae7tC2WQ.png">
+        <img src ="https://www.taskade.com/blog/wp-content/uploads/2022/10/kanban-example.png">
         <p>Drag and drop is a very common feature. It is when you "grab" an object and drag it to a different location</p>
         <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Drag-Drop-Project" target="_blank">Source</a></button>
         <button class ="projectbtn"><a href ="https://kanban-app-satyam.netlify.app" target="_blank">Live</a></button>

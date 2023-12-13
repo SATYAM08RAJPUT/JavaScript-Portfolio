@@ -7,7 +7,9 @@ export class Portfolio{
         <div class ="left"><h2 class ="sat">SATYAM </h2>
         <h2 class="raj"> RAJPUT</h2>
         </div>
+        <a href="#" id="menu-icon"><i style="font-size:35px" class="fa">&#xf0c9;</i></a>
         <div class ="middle"> 
+        <a href="#" class="close"></a>
         <li><a href = "#homeid"> Home </a></li>
         <li><a href = "#aboutid"> About</a></li>
         <li><a href = "#skillid"> Skill's</a></li>
