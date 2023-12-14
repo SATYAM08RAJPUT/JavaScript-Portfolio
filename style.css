@@ -68,7 +68,6 @@ body{
     color: white;
     margin-top: 10%;
     font-size: 25px;
-    width: ;
     margin-left: 10%;
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -296,7 +295,7 @@ input{
 .submitbtn{
     padding: 5%;
     margin-top: 8%;
-    width: 55%;
+    width: 100%;
     border: solid 1px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -706,11 +705,10 @@ input{
     width: 74%;
     height: 20vh;
 }
-
 .submitbtn{
     padding: 4%;
     margin-top: 8%;
-    width: 50%;
+    width: 100%;
     border: solid 1px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -727,6 +725,4 @@ input{
     margin-bottom: 10%;
     color: white;
 }
-
-
 }   
