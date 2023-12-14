@@ -6,7 +6,7 @@ export class Home{
         const home = `<div id ="homeid">
         <div class ="name"><h1>SATYAM <span>RAJPUT</span></h1>
         <p>Front-End developer & Web developer</p>
-        <a href="https://drive.google.com/file/d/1DGHuvCvpVbSv4qqZK29dFABWxYD2204R/view?usp=drive_link"  target="_blank" download class ="btn">Download Resume</a>
+        <a href="https://drive.google.com/file/d/15vsRLzKHRb-I7GcEh0c3Pew-clYuXA2i/view?usp=drive_link"  target="_blank" download class ="btn">Download Resume</a>
         </div>
         <img src ="https://cdn3.vectorstock.com/i/1000x1000/30/42/person-using-computer-icon-image-vector-16973042.jpg" class="logoimg">
         </div>
