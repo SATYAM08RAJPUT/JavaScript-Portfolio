@@ -607,13 +607,17 @@ input{
 #skillid{
     width: 98%;
 }
+.skill h1{
+    margin-left: 3%;
+    font-size: 22px;
+}
 .skillgrid{
     display: inline-block;
     margin-top: 8%;
     font-family: 'Poppins', sans-serif;
 }
 .skilladd{
-    width: 400px;
+    width: 350px;
     height: 100px;
     text-align: center;
     color: #00c0ff;
@@ -725,9 +729,9 @@ input{
     height: 20vh;
 }
 .submitbtn{
-    padding: 4%;
+    padding: 3%;
     margin-top: 8%;
-    width: 100%;
+    width: 96%;
     border: solid 1px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
