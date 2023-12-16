@@ -208,7 +208,7 @@ body{
     margin-top: 5%;
     display: grid;
     height: 28vh;
-    grid-template-columns: 95% 45%;
+    grid-template-columns: 85% 45%;
 }
 
 .info{
@@ -390,8 +390,9 @@ input{
 }
 .adskil{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
 #menu-icon{
     display: none;
 }
