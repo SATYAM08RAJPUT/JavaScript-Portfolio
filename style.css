@@ -208,7 +208,7 @@ body{
     margin-top: 5%;
     display: grid;
     height: 28vh;
-    grid-template-columns: 95% 35%;
+    grid-template-columns: 65% 45%;
 }
 
 .info{
@@ -379,7 +379,6 @@ input{
     text-align: center;
     color: #00c0ff;
     margin-left: 5%;
-
 }
 .skilladd h1{
     margin-top: 2%;
@@ -437,7 +436,6 @@ input{
     cursor: pointer;
     padding: 5%;
     height: auto;
-    
     padding-top: 10%;
     color: white;
     z-index: 1000;
