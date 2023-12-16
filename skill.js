@@ -10,7 +10,7 @@ export class Skill{
         </div>
         <div class ="skillgrid">
         <div class ="skilladd">
-        <h1>My skills</h1>
+        <h2>My skills</h2>
         <p>Hello I am Web Developer. My skills are...</p>
         </div>
         <div class ="skilladd">

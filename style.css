@@ -68,7 +68,7 @@ body{
 }
 #homeid{
     color: white;
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 25px;
     margin-left: 10%;
     display: flex;
@@ -208,12 +208,12 @@ body{
     margin-top: 5%;
     display: grid;
     height: 30vh;
-    grid-template-columns: 65% 65%;
+    grid-template-columns: auto auto;
 }
 .info{
     border: solid 1px white; 
     padding: 5%;
-    border-radius: 5px;
+   
 }
 .info h5{
   font-size: 16px;
@@ -238,7 +238,6 @@ body{
     border-radius: 50px;
     margin-top: 5%;
 }
-
 .skill p{ 
     font-family: 'Poppins', sans-serif;
     color: #00c0ff;
@@ -305,16 +304,14 @@ input{
 }
 #message{
     color: #00c0ff; 
-    padding: 10%;
     border-radius: 5px;
+    padding: 10%;
     background-color:#1e1c4e;
     border: solid 1px;
-    
+
 }
 .submitbtn{
-    padding: 5%;
-    margin-top: 8%;
-    width: 100%;
+    padding: 2%;
     border: solid 1px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -387,8 +384,8 @@ input{
     margin-top: 2%;
 }
 .skilimg{
-   max-width:100px;
-   max-height: 100px;
+   max-width:90px;
+   max-height: 90px;
 }
 .adskil{
     display: flex;
