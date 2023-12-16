@@ -371,26 +371,27 @@ input{
 }
 .skillgrid{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 5%;
     font-family: 'Poppins', sans-serif;
 }
 .skilladd{
-    width: 600px;
-    height: 100px;
     text-align: center;
     color: #00c0ff;
+    margin-left: 5%;
+
 }
 .skilladd h1{
     margin-top: 2%;
 }
 .skilimg{
-   max-width:90px;
-   max-height: 90px;
+   max-width:80px;
+   max-height: 80px;
+   border-radius: 10px;
 }
 .adskil{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 #menu-icon{
     display: none;

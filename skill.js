@@ -20,7 +20,7 @@ export class Skill{
         <h3>HTML</h3>
         </div>
         <div>
-        <img src ="https://camo.githubusercontent.com/119b29ca4b9d31cf3969a94eb57fcfbbea0879b493c09c89dc6d4b7fb9e0dc37/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667" class="skilimg">
+        <img src ="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" class="skilimg">
         <h3>CSS</h3>
         </div>
         <div>
