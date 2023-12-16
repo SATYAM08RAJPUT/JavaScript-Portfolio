@@ -26,6 +26,7 @@
     width: 50%;
     justify-content: right;
     font-size: 20px;
+    margin-top: 1%;
 }
 .middle div{
     color: white;
@@ -52,6 +53,7 @@ a:hover{
     color: white;
     display: flex;
     width: 15%;
+    margin-top: 1%;
     justify-content: left;
     margin-left: 1%;
 }
@@ -71,6 +73,21 @@ body{
     margin-left: 10%;
     display: flex;
     font-family: 'Poppins', sans-serif;
+}
+#aboutid{
+    margin-top: 10%;
+}
+#skillid{
+    margin-top: 10%;
+}
+#projectid{
+    margin-top: 10%;
+}
+#contactid{
+    margin-top: 10%;
+}
+#footerid{
+    margin-top: 10%;
 }
 .name{
     font-size: 35px;
@@ -101,9 +118,8 @@ body{
 }
 .homediv{
     display: grid;
-    grid-template-columns: 25% 25% 25%;
-    justify-content: center;
-    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
 }
 .name{
     font-family: 'Poppins', sans-serif;
@@ -159,6 +175,9 @@ body{
     text-align: center;
     font-size: 20px;
     margin-bottom: 15px;
+}
+#aboutid{
+    margin-top: 10%;
 }
 .about{
     display: grid;
@@ -306,6 +325,7 @@ input{
 }
 .footer{
     margin-top: 4%;
+    margin-bottom: 3%;
     text-align: center;
     color: #00c0ff;
     font-family: 'Poppins', sans-serif;
