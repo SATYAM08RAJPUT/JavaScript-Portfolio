@@ -207,19 +207,20 @@ body{
 .infosection{
     margin-top: 5%;
     display: grid;
-    height: 30vh;
-    grid-template-columns: auto auto;
+    height: 28vh;
+    grid-template-columns: 95% 35%;
 }
+
 .info{
     border: solid 1px white; 
-    padding: 5%;
+    padding: 2%;
    
 }
 .info h5{
   font-size: 16px;
   font-weight: 500;
   color: #fff;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   font-family: 'Poppins', sans-serif;
 }
 .info p{
