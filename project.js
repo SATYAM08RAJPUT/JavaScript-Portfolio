@@ -15,7 +15,7 @@ export class Project{
         <button class ="projectbtn"><a href ="https://kanban-app-satyam.netlify.app" target="_blank">Live</a></button>
         </div>
         <div  class = "progrid">
-        <img src ="https://picjumbo.com/wp-content/uploads/job-search-im-unemployed-1570x1047.jpg">
+        <img src ="https://media.istockphoto.com/id/1279104620/photo/top-view-of-a-white-desktop-concept-job-search.jpg?s=612x612&w=0&k=20&c=Ow_kvA2wQ4rLlqX_oFHgpjLb1JMKyPQKLOPzbu6w6qw=">
         <p>What's trending on Indeed With Indeed, you can search millions of jobs online to find the next step in your career.</p>
         <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Test" target="_blank">Source</a></button>
         <button class ="projectbtn"><a href ="https://jobfind-satyam.netlify.app/" target="_blank">Live</a></button>

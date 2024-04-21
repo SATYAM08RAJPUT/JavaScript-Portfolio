@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
 }
 #header{
     background-color: #1e1c4e;
@@ -476,7 +478,7 @@ input{
   }
   #homeid{
     width: 100%;
-        color: white;
+    color: white;
     font-family: 'Poppins', sans-serif;
   }
   .name{
