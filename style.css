@@ -447,7 +447,7 @@ input{
 .middle a{
     margin-top: 5%;
 }
-#menu-icon:hover + .middle{
+#menu-icon:focus-within + .middle{
     display: block;
  }
 .close{

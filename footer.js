@@ -3,9 +3,11 @@ export class Footer{
         this.data = data
     }
     renderFooter(){
-        const footer = `<div class ="footer">
+        const footer = `
+        <div class ="footer">
         <p>Developed with love by <h3>SATYAM RAJPUT </h3> © 2023</p>
-        </div>`
+        </div>
+        `
         const cretFooter = document.createElement('div')
         cretFooter.innerHTML = footer;
         const takeNormalId = document.getElementById('head')
