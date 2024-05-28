@@ -8,6 +8,24 @@ export class Project{
         <h1 class ="headfirst">A Passionate Developer Who Loves <br>to Code</h1>
         </div>
         <div class ="projectgrid">
+        <div  class = "progrid">
+        <img src ="https://i.pinimg.com/736x/29/21/d5/2921d58d48a1bb847bf24ee3761ce055.jpg">
+        <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project.</p>
+        <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Chisfis" target="_blank" >Source</a></button>
+        <button class ="projectbtn"><a href ="https://chisfis-clonee.netlify.app/" target="_blank">Live</a></button>
+        </div>
+        <div  class = "progrid">
+        <img src ="https://shots.codepen.io/username/pen/KgxmXv-800.jpg?version=1534621050">
+        <p>This is an authentication form that we have created with the help of React. Lot of implementation features are included in it..</p>
+        <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/React-Authentication-App" target="_blank" >Source</a></button>
+        <button class ="projectbtn"><a href ="https://user-registration-axsoft.netlify.app/" target="_blank">Live</a></button>
+        </div>
+        <div  class = "progrid">
+        <img src ="https://s3.envato.com/files/411516436/theme-banner.__large_preview.png">
+        <p>This is a basic portfolio which we have created with the help of HTML and CSS and Javascript</p>
+        <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Task-Portfolio" target="_blank" >Source</a></button>
+        <button class ="projectbtn"><a href ="https://satyam-taskportfolio.netlify.app/" target="_blank">Live</a></button>
+        </div>
         <div class = "progrid">
         <img src ="https://www.taskade.com/blog/wp-content/uploads/2022/10/kanban-example.png">
         <p>Drag and drop is a very common feature. It is when you "grab" an object and drag it to a different location</p>
@@ -27,24 +45,7 @@ export class Project{
         <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Google-News" target="_blank" >Source</a></button>
         <button class ="projectbtn"><a href ="https://googlenews-satyam.netlify.app/" target="_blank">Live</a></button>
         </div>
-        <div  class = "progrid">
-        <img src ="https://i.pinimg.com/736x/29/21/d5/2921d58d48a1bb847bf24ee3761ce055.jpg">
-        <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project.</p>
-        <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Chisfis" target="_blank" >Source</a></button>
-        <button class ="projectbtn"><a href ="https://chisfis-clonee.netlify.app/" target="_blank">Live</a></button>
-        </div>
-        <div  class = "progrid">
-        <img src ="https://s3.envato.com/files/411516436/theme-banner.__large_preview.png">
-        <p>This is a basic portfolio which we have created with the help of Java Scripting.</p>
-        <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/Task-Portfolio" target="_blank" >Source</a></button>
-        <button class ="projectbtn"><a href ="https://satyam-taskportfolio.netlify.app/" target="_blank">Live</a></button>
-        </div>
-        <div  class = "progrid">
-        <img src ="https://shots.codepen.io/username/pen/KgxmXv-800.jpg?version=1534621050">
-        <p>This is an authentication form that we have created with the help of React. Lot of implementation features are included in it..</p>
-        <button class ="projectbtn"><a href ="https://github.com/SATYAM08RAJPUT/React-Authentication-App" target="_blank" >Source</a></button>
-        <button class ="projectbtn"><a href ="https://user-registration-axsoft.netlify.app/" target="_blank">Live</a></button>
-        </div>
+
         </div>`
         const cretProject = document.createElement('div')
         cretProject.innerHTML = projectDeatils

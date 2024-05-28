@@ -344,7 +344,7 @@ input{
 
 .progrid{
     width: 300px;
-    border: solid 1px white;
+    border: solid 1px rgb(158, 93, 93);
     height: 400px;
     border-radius: 10px;
     overflow: hidden;
@@ -358,19 +358,24 @@ input{
     margin-top: 2%;
     font-family: 'Poppins', sans-serif;
     color: white;
+    padding: 7px;
     text-align: center;
 }
 .progrid .projectbtn{
     background-color: #00c0ff;
     padding: 3%;
     border-radius: 5px;
-    margin-top: 7%;
+    margin-top: 2%;
     width: 35%;
     margin-left: 10%;
     text-align: center;
 }
+.progrid:hover{
+    transform: scale(0.95);
+}
 .projectbtn:hover{
     color: black;
+  
 }
 .skillgrid{
     display: flex;
