@@ -73,11 +73,13 @@ body{
     margin-top: 15%;
     font-size: 25px;
     margin-left: 10%;
+    width: 90%;
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
 #aboutid{
     margin-top: 10%;
+    width: 99%;
 }
 #skillid{
     margin-top: 10%;
@@ -120,6 +122,7 @@ body{
 }
 .homediv{
     display: grid;
+    width: 99%;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
 }
@@ -177,9 +180,6 @@ body{
     text-align: center;
     font-size: 20px;
     margin-bottom: 15px;
-}
-#aboutid{
-    margin-top: 10%;
 }
 .about{
     display: grid;
@@ -335,7 +335,6 @@ input{
 }
 .projectgrid{
     display: grid;
-    /* grid-template-columns: 25% 25% 25%; */
     grid-template-columns: auto auto auto auto;
     justify-content: center;
     gap: 20px;
@@ -378,27 +377,27 @@ input{
   
 }
 .skillgrid{
-    display: flex;
-    justify-content: center;
     margin-top: 5%;
     font-family: 'Poppins', sans-serif;
 }
 .skilladd{
     text-align: center;
     color: #00c0ff;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 .skilladd h1{
     margin-top: 2%;
 }
 .skilimg{
-   max-width:80px;
-   max-height: 80px;
+   max-width:100px;
+   max-height: 100px;
    border-radius: 10px;
 }
 .adskil{
-    display: flex;
+    display: grid;
+    gap: 20px;
     justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
 }
 
 #menu-icon{
@@ -412,6 +411,7 @@ input{
     *{
         padding: 0px;
         margin: 0px;
+        scroll-behavior: smooth;
     }
     .position{
         width: 100%;
@@ -456,6 +456,7 @@ input{
 }
 #menu-icon:focus-within + .middle{
     display: block;
+    scroll-behavior: smooth;
  }
 .close{
     position: absolute;
@@ -484,14 +485,13 @@ input{
     transform: rotate(-45deg);
   }
   #homeid{
-    width: 100%;
     color: white;
+    margin-left: 5%;
     font-family: 'Poppins', sans-serif;
   }
   .name{
     font-size: 20px;
     margin-top: 85%;
-    margin-left: -5%;
     display: grid;
     flex-direction: column-reverse;
   }
@@ -528,7 +528,7 @@ input{
     margin-bottom: 8px;
   }
   .homediv{
-    width: 99%;
+    width: 98%;
     display: inline-block;
     justify-content: center;
   }
@@ -562,11 +562,11 @@ input{
     font-family: 'Open Sans', sans-serif;
 }
 .headfirst{
-    font-size: 22px;
+    font-size: 20px;
 }
 #aboutid{
     width: 98%;
-    margin-top: 40%;
+    margin-top: 15%;
 }
 .about{
     display: inline-block;
@@ -614,6 +614,7 @@ input{
 }
 #skillid{
     width: 98%;
+    margin-top: -50px;
 }
 .skill h1{
     margin-left: 3%;
@@ -627,8 +628,9 @@ input{
 .skilladd{
     width: 350px;
     height: 100px;
-    text-align: center;
     color: #00c0ff;
+    margin-left: 4%;
+
 }
 .skilladd h1{
     margin-top: 2%;
@@ -645,7 +647,7 @@ input{
 }
 #projectid{
     width: 98%;
-    margin-top: 20%;
+    margin-top: 35%;
 }
 .projectgrid{
     display: inline-block;
@@ -686,7 +688,7 @@ input{
 }
 #contactid{
     width: 98%;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .location{
     border-radius: 50%;
@@ -757,3 +759,131 @@ input{
     color: white;
 }
 }   
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    margin-top: 5%;
+}
+.projectinfo {
+    margin-top: 10px;
+}
+.projectinfo img{
+    width: 75%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.design{
+    display: inline-block;
+    padding: 8px 20px;
+    background: rgba(255, 101, 28, 0.2);
+    color: #373737;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+}
+.projectinfo h4{
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+    width: 70%;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.projectinfo p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.projectinfo button{
+    background: #FF651C;
+    border-color: #FF651C;
+    color: #fff;
+    box-shadow: 6px 6px 0 -1px #373737;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transition: ease all 0.35s;
+    display: inline-block;
+    margin-top: 70px;
+}
+.projectinfo button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 6px 6px 0 -1px #FF651C;
+}
+.third-grid{
+    margin-top: 30px;
+}
+@media(max-width:400px){
+    #projectid {
+      width: 100%;
+    }
+    #projectid h3{
+        margin-left: 10%;
+        margin-left: 28%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 38px;
+        width: 50%;
+    }
+    .project-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectinfo img{
+        width: 100%;
+       margin-left: 0px;
+    }
+    .second-Grid{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .third-grid{
+        margin-top: 10px;
+    }
+    .projectinfo h4{
+        color: white;
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 20px;
+        width:100%;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+    .projectinfo p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: white;
+    }
+    .projectinfo button{
+        background: #FF651C;
+        border-color: #FF651C;
+        color: #fff;
+        box-shadow: 6px 6px 0 -1px #373737;
+        padding: 4px 10px;
+        border: 2px solid transparent;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-top: 10px;
+        margin-left: 1px;
+        text-decoration: none;
+        margin-bottom: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: ease all 0.35s;
+        display: inline-block;
+    }
+}

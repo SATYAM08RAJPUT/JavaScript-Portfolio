@@ -10,10 +10,6 @@ export class Skill{
         </div>
         <div class ="skillgrid">
         <div class ="skilladd">
-        <h2>My skills</h2>
-        <p>Hello I am Web Developer. My skills are...</p>
-        </div>
-        <div class ="skilladd">
         <div class = "adskil">
         <div>
         <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" class="skilimg">
@@ -28,8 +24,24 @@ export class Skill{
         <h3>JavaScript</h3>
         </div>
         <div>
+        <img src ="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" class="skilimg">
+        <h3>React</h3>
+        </div>
+        <div>
         <img src ="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" class="skilimg">
         <h3>GitHub</h3>
+        </div>
+        <div>
+        <img src ="https://png.pngtree.com/png-vector/20190330/ourmid/pngtree-json-file-document-icon-png-image_897441.jpg" class="skilimg">
+        <h3>JSON</h3>
+        </div>
+        <div>
+        <img src ="https://e7.pngegg.com/pngimages/834/715/png-clipart-computer-icons-api-text-logo.png" class="skilimg">
+        <h3>API</h3>
+        </div>
+        <div>
+        <img src ="https://raw.githubusercontent.com/github/explore/8be26d91eb231fec0b8856359979ac09f27173fd/topics/ajax/ajax.png" class="skilimg">
+        <h3>AJAX</h3>
         </div>
         </div>
         </div>
