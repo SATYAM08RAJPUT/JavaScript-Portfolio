@@ -12,7 +12,7 @@ export class Project{
         <img src="https://i.pinimg.com/736x/29/21/d5/2921d58d48a1bb847bf24ee3761ce055.jpg" />
         </div>
         <div class="projectinfo">
-        <h4>Website Design for Chisfis Clone</h4>
+        <h4>Chisfis Clone</h4>
         <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project
         </p>   
         <button><a href ="https://chisfis-clonee.netlify.app/" target="_blank">Live Project</a></button>
@@ -23,7 +23,7 @@ export class Project{
         </div>
         <div class="projectinfo">
         <div class="second-Grid">
-        <h4>Design for Authentication form</h4>
+        <h4>Authentication form</h4>
         <p>This is an authentication form that we have created with the help of React. Lot of implementation features are included in it..
         </p>   
         <button><a href ="https://user-registration-axsoft.netlify.app/" target="_blank">Live Project</a></button>
@@ -35,7 +35,7 @@ export class Project{
         </div>
         <div class="projectinfo">
         <div class="third-grid">
-        <h4> Design for Krinky Portfolio</h4>
+        <h4>Krinky Portfolio</h4>
         <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores
         </p>   
         <button><a href ="https://satyam-taskportfolio.netlify.app/" target="_blank">Live Project</a></button>
@@ -47,7 +47,7 @@ export class Project{
         </div>
         <div class="projectinfo">
         <div class="second-Grid">
-        <h4>Design a Kanban</h4>
+        <h4>Kanban App</h4>
         <p>Drag and drop is a very common feature. It is when you "grab" an object and drag it to a different location
         </p>   
         <button><a href ="https://kanban-app-satyam.netlify.app" target="_blank">Live Project</a></button>
@@ -59,7 +59,7 @@ export class Project{
         </div>
         <div class="projectinfo">
         <div class="third-grid">
-        <h4>Website Design for Job Search</h4>
+        <h4>Job Search App</h4>
         <p>What's trending on Indeed With Indeed, you can search millions of jobs online to find the next step in your career.
         </p>   
         <button><a href ="https://jobfind-satyam.netlify.app/" target="_blank">Live Project</a></button>
@@ -71,7 +71,7 @@ export class Project{
         </div>
         <div class="projectinfo">
         <div class="second-Grid">
-        <h4>Website Design for google News</h4>
+        <h4>google News Clone</h4>
         <p>Google Images is a search engine owned by Google that allows users search the World Wide Web for images
         </p>   
         <button><a href ="https://googlenews-satyam.netlify.app/" target="_blank">Live Project</a></button>
