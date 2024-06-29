@@ -15,7 +15,7 @@ export class Project{
         <h4>Chisfis Clone</h4>
         <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project
         </p>   
-        <button><a href ="https://chisfis-cloneeee.netlify.app/" target="_blank">Live Project</a></button>
+        <button><a href ="https://chisfis-cloneeeeee.netlify.app/" target="_blank">Live Project</a></button>
         <button><a href ="https://github.com/SATYAM08RAJPUT/Chisfis" target="_blank">Project Source</a></button>
         </div>
         <div class="projectinfo">
