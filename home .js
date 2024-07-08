@@ -4,12 +4,16 @@ export class Home{
     }
     renderHome(){
         const home = `<div id ="homeid">
-        <div class ="name"><h1>SATYAM <span>RAJPUT</span></h1>
+        <div class ="name">
+        <h1>SATYAM <span>RAJPUT</span></h1>
+        <div class="firstPara">
         <p>Front-End developer & Web developer</p>
-        <a href="https://drive.google.com/file/d/1Epfrh_xaQDKEskRBGCYcybd7RVn7LPFy/view?usp=sharing"  target="_blank" download class ="btn">Download Resume</a>
+        </div>
+        <a href="https://drive.google.com/file/d/1Epfrh_xaQDKEskRBGCYcybd7RVn7LPFy/view?usp=sharing"  target="_blank" download class="btn">Download Resume</a>
         </div>
         <img src ="https://cdn3.vectorstock.com/i/1000x1000/30/42/person-using-computer-icon-image-vector-16973042.jpg" class="logoimg">
         </div>
+        
         <div class ="homediv">
         <div class ="grid">
         <div class ="firstpara">
@@ -38,9 +42,26 @@ export class Home{
        const takeNormalId = document.getElementById('head')
        takeNormalId.append(crethome)
     }
+
+    // visibleText(entries){
+    // const target  = document.querySelector(".grid");
+    // console.log(target)
+    // console.log(entries)
+    //     entries.map((entry) => {
+    //        if(entry.isIntersecting) {
+    //         entry.target.classList.add('visible')
+    //        } else {
+    //         entry.target.classList.remove('visible')
+    //     }
+    // })
+    // }
     
     init(){
         this.renderHome()
+        // this.visibleText(entries)
+        // const observer = new IntersectionObserver(this.visibleText)
+        // console.log(observer)
+        // observer.observe(target)
     }
 }
 const home = new Home()

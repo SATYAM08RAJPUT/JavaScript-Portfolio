@@ -5,8 +5,8 @@ export class Skill{
     renderSkill(){
         const skill = `
         <div class ="skill" id = "skillid">
-        <p class="mainheading">Skills</p>
-        <h1 class ="headfirst">I Work Hard to Improve My Skills <br> Regularly</h1>
+        <p class="mainheading1">Skills</p>
+        <h1 class ="headfirst1">I Work Hard to Improve My Skills <br> Regularly</h1>
         </div>
         <div class ="skillgrid">
         <div class ="skilladd">
@@ -51,8 +51,28 @@ export class Skill{
         const takeid = document.getElementById("head")
         takeid.append(creteSkill)
     }
+    visibleText(entries){
+        console.log(entries)
+        entries.map((entry) => {
+            console.log(entry)
+           if(entry.isIntersecting) {
+            entry.target.classList.add('visible')
+           } else {
+            entry.target.classList.remove('visible')
+        }
+    })
+    }
+
     init(){
         this.renderSkill()
+        const target  = document.querySelector(".mainheading1");
+        console.log(target)
+        const target2 = document.querySelector(".headfirst1")
+        console.log(target2)
+        const observer = new IntersectionObserver(this.visibleText)
+        console.log(observer)
+        observer.observe(target)
+        observer.observe(target2)
     }
 }
 const skilcheck = new Skill()

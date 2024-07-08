@@ -48,9 +48,29 @@ export class About{
         const takeNormalId = document.getElementById('head')
         takeNormalId.append(cretabout)
     }
+
+    visibleText(entries){
+        console.log(entries)
+        entries.map((entry) => {
+            console.log(entry)
+           if(entry.isIntersecting) {
+            entry.target.classList.add('visible')
+           } else {
+            entry.target.classList.remove('visible')
+        }
+    })
+    }
  
     init(){
         this.renderAbout()
+        const target  = document.querySelector(".mainheading");
+        console.log(target)
+        const target2 = document.querySelector(".headfirst")
+        console.log(target2)
+        const observer = new IntersectionObserver(this.visibleText)
+        console.log(observer)
+        observer.observe(target)
+        observer.observe(target2)
     }
 }
 const about = new About()

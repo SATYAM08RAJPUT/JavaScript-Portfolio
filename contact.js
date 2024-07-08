@@ -4,12 +4,11 @@ export class Contact{
     }
     renderContact(){
         const contactDeatils = `<div id ="contactid">
-        <p class="mainheading">Contact</p>
-        <h1 class ="headfirst">I Want to Hear from You</h1>
+        <p class="mainheading3">Contact</p>
+        <h1 class ="headfirst3">I Want to Hear from You</h1>
         </div>
         <div class ="contactgrid">
         <div class ="conGrid" id ="mangericon">
-
         <div class ="location">
         <i class="fa fa-phone" aria-hidden="true" style="font-size:30px;color: #fff;"></i>
         </div>
@@ -66,8 +65,29 @@ export class Contact{
           message => alert("message sent Succesfully")
         );
     }
+
+    visibleText(entries){
+        console.log(entries)
+        entries.map((entry) => {
+            console.log(entry)
+           if(entry.isIntersecting) {
+            entry.target.classList.add('visible')
+           } else {
+            entry.target.classList.remove('visible')
+        }
+    })
+    }
+
     init(){
         this.renderContact();
+        const target  = document.querySelector(".mainheading3");
+        console.log(target)
+        const target2 = document.querySelector(".headfirst3")
+        console.log(target2)
+        const observer = new IntersectionObserver(this.visibleText)
+        console.log(observer)
+        observer.observe(target)
+        observer.observe(target2)
     }
 }
 const contectmade= new Contact();

@@ -4,8 +4,8 @@ export class Project{
     }
     renderProject(){
         const projectDeatils = `<div id ="projectid">
-        <p class="mainheading">Projects</p>
-        <h1 class ="headfirst">LATEST PROJECTS</h1>
+        <p class="mainheading2">Projects</p>
+        <h1 class ="headfirst2">LATEST PROJECTS</h1>
         </div>
         <div class="project-grid">
         <div class="projectinfo">
@@ -15,7 +15,7 @@ export class Project{
         <h4>Chisfis Clone</h4>
         <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project
         </p>   
-        <button><a href ="https://chisfis-cloneeeeee.netlify.app/" target="_blank">Live Project</a></button>
+        <button><a href ="https://chisfis-cloneeeeeee.netlify.app/" target="_blank">Live Project</a></button>
         <button><a href ="https://github.com/SATYAM08RAJPUT/Chisfis" target="_blank">Project Source</a></button>
         </div>
         <div class="projectinfo">
@@ -77,8 +77,8 @@ export class Project{
         <button><a href ="https://googlenews-satyam.netlify.app/" target="_blank">Live Project</a></button>
         <button><a href ="https://github.com/SATYAM08RAJPUT/Google-News" target="_blank">Project Source</a></button>
         </div>
-        </div>
-</div>
+        </div>  
+    </div>
 
         </div>`
         const cretProject = document.createElement('div')
@@ -86,8 +86,27 @@ export class Project{
         const takeNormalId = document.getElementById('head')
         takeNormalId.append(cretProject)
     }
+    visibleText(entries){
+        console.log(entries)
+        entries.map((entry) => {
+            console.log(entry)
+           if(entry.isIntersecting) {
+            entry.target.classList.add('visible')
+           } else {
+            entry.target.classList.remove('visible')
+        }
+    })
+    }
     init(){
         this.renderProject();
+        const target  = document.querySelector(".mainheading2");
+        console.log(target)
+        const target2 = document.querySelector(".headfirst2")
+        console.log(target2)
+        const observer = new IntersectionObserver(this.visibleText)
+        console.log(observer)
+        observer.observe(target)
+        observer.observe(target2)
     }
     }
 
