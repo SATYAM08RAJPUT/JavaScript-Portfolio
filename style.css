@@ -727,7 +727,7 @@ input{
     }
     50%{
         top: 0px;
-        left: 40px;
+        left: 27px;
     }
     100%{
         top: 0px;
@@ -744,7 +744,7 @@ input{
     width: 350px;
     border-radius: 10px;
     margin-top: 8%;
-    margin-left: 4%;
+    margin-left: 3%;
     /* height: auto; */
     padding: 20px;
    text-align: center;
