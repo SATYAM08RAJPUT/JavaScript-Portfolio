@@ -229,7 +229,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .name::first-letter{
-    color: #ffa603;
+    /* color: #ffa603; */
     font-size: 135px;
 }
 .firstpara p{
@@ -242,7 +242,7 @@ body{
 }
 
 .firstPara p::first-letter{
-    color: #ffa603;
+    /* color: #ffa603; */
     font-size: 60px;
 }
 

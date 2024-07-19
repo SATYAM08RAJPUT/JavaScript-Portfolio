@@ -14,7 +14,7 @@ export class Portfolio{
         <a href="#" class="close"></a>
         <li><a href = "#homeid"> Home </a></li>
         <li><a href = "#aboutid"> About</a></li>
-        <li><a href = "#skillid"> Skill's</a></li>
+        <li><a href = "#skillid"> Skill</a></li>
         <li><a href = "#projectid"> Project</a></li>
         <li><a href = "#contactid"> Contact</a></li>
         </div>
