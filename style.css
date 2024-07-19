@@ -673,7 +673,7 @@ input{
   }
   .name p::first-letter{
     font-size: 38px;
-    color: #ffa603;
+    /* color: #ffa603; */
   }
   .name h1{
     font-size: 30px;
@@ -686,7 +686,7 @@ input{
     text-align: center;
   }
   .name h1::first-letter{
-    color: #ffa603;
+    /* color: #ffa603; */
     font-size: 50px;
 }
  .btn{
