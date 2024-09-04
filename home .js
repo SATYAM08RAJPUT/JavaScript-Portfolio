@@ -1,8 +1,8 @@
-export class Home{
-    constructor(data){
+export class Home {
+    constructor(data) {
         this.data = data;
     }
-    renderHome(){
+    renderHome() {
         const home = `<div id ="homeid">
         <div class ="name">
         <h1>SATYAM <span>RAJPUT</span></h1>
@@ -37,10 +37,10 @@ export class Home{
         </div>
         </div>
         </div>`
-       const crethome = document.createElement('div')
-       crethome.innerHTML = home;
-       const takeNormalId = document.getElementById('head')
-       takeNormalId.append(crethome)
+        const crethome = document.createElement('div')
+        crethome.innerHTML = home;
+        const takeNormalId = document.getElementById('head')
+        takeNormalId.append(crethome)
     }
 
     // visibleText(entries){
@@ -55,8 +55,8 @@ export class Home{
     //     }
     // })
     // }
-    
-    init(){
+
+    init() {
         this.renderHome()
         // this.visibleText(entries)
         // const observer = new IntersectionObserver(this.visibleText)

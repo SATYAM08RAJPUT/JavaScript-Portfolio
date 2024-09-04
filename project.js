@@ -1,8 +1,8 @@
-export class Project{
-    constructor(data){
+export class Project {
+    constructor(data) {
         this.data = data
     }
-    renderProject(){
+    renderProject() {
         const projectDeatils = `<div id ="projectid">
         <p class="mainheading2">Projects</p>
         <h1 class ="headfirst2">LATEST PROJECTS</h1>
@@ -12,11 +12,25 @@ export class Project{
         <img src="https://i.pinimg.com/736x/29/21/d5/2921d58d48a1bb847bf24ee3761ce055.jpg" />
         </div>
         <div class="projectinfo">
+        <div class="second-Grid">
         <h4>Chisfis Clone</h4>
-        <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project
+        <p>Welcome to Chisfis, It is uses for Online booking, Listing, Real Estate, and booking systems.This is made in React Project.
         </p>   
         <button><a href ="https://chisfis-cloneeeeeee.netlify.app/" target="_blank">Live Project</a></button>
         <button><a href ="https://github.com/SATYAM08RAJPUT/Chisfis" target="_blank">Project Source</a></button>
+        </div>
+        </div>
+         <div class="projectinfo">
+        <img src="https://cdn.techjockey.com/blog/wp-content/uploads/2023/10/01133720/foundit-dashboard-showing-jobs-for-digital-marketing-1-1024x536.png" />
+        </div>
+        <div class="projectinfo">
+        <div class="second-Grid">
+        <h4>Job Finder</h4>
+        <p>Welcome to Job Finde, It is use find the job based on Location, Salary & Experience. 
+        </p>   
+        <button><a href ="https://search-board.netlify.app/" target="_blank">Live Project</a></button>
+        <button><a href ="https://github.com/SATYAM08RAJPUT/Job-finder" target="_blank">Project Source</a></button>
+        </div>
         </div>
         <div class="projectinfo">
         <img src="https://shots.codepen.io/username/pen/KgxmXv-800.jpg?version=1534621050" />
@@ -86,20 +100,20 @@ export class Project{
         const takeNormalId = document.getElementById('head')
         takeNormalId.append(cretProject)
     }
-    visibleText(entries){
+    visibleText(entries) {
         console.log(entries)
         entries.map((entry) => {
             console.log(entry)
-           if(entry.isIntersecting) {
-            entry.target.classList.add('visible')
-           } else {
-            entry.target.classList.remove('visible')
-        }
-    })
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible')
+            } else {
+                entry.target.classList.remove('visible')
+            }
+        })
     }
-    init(){
+    init() {
         this.renderProject();
-        const target  = document.querySelector(".mainheading2");
+        const target = document.querySelector(".mainheading2");
         console.log(target)
         const target2 = document.querySelector(".headfirst2")
         console.log(target2)
@@ -108,7 +122,7 @@ export class Project{
         observer.observe(target)
         observer.observe(target2)
     }
-    }
+}
 
 
 const crteProject = new Project();
