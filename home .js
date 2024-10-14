@@ -9,7 +9,7 @@ export class Home {
         <div class="firstPara">
         <p>Front-End developer & Web developer</p>
         </div>
-        <a href="https://drive.google.com/file/d/1XtfCtX0tzPAFPRmmpMPDUeXz0upTjNpn/view?usp=sharing"  target="_blank" download class="btn">Download Resume</a>
+        <a href="https://drive.google.com/file/d/1vQ_8RyUX44HQVJsgp6PjF7EL3kY2aoSm/view?usp=sharing"  target="_blank" download class="btn">Download Resume</a>
         </div>
         <img src ="https://cdn3.vectorstock.com/i/1000x1000/30/42/person-using-computer-icon-image-vector-16973042.jpg" class="logoimg">
         </div>
