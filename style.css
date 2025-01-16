@@ -781,7 +781,7 @@ input {
         margin-top: 30%;
         margin-left: -260px;
         margin-bottom: 35%;
-        border: solid black;
+        border: none;
     }
 
     .firstPara {

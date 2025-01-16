@@ -11,7 +11,7 @@ export class Home {
         </div>
         <a href="https://drive.google.com/file/d/1_wsZbh8oMNHYSz_g5Fn9HfBsHIds2KEk/view?usp=sharing"  target="_blank" download class="btn">Download Resume</a>
         </div>
-        <img src ="https://cdn3.vectorstock.com/i/1000x1000/30/42/person-using-computer-icon-image-vector-16973042.jpg" class="logoimg">
+        <img src ="https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/653c5395a20cd20e8f4fb7b5_Freelance%20Software%20Developer%20Everything%20You%20Need%20To%20Know.webp" class="logoimg">
         </div>
         
         <div class ="homediv">
