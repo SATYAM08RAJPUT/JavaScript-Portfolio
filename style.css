@@ -156,7 +156,6 @@ body {
     max-width: 240px;
     max-height: 240px;
     border-radius: 50%;
-    border: solid black;
     margin-left: 15%;
     background-color: blue;
 }
